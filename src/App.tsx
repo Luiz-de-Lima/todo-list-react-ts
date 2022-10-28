@@ -39,6 +39,7 @@ const App = () => {
       const listTasks = [...itemTask, newTask];
       localStorage.setItem("@afroTodo:tasks", JSON.stringify(listTasks));
       setItemTask(listTasks);
+      setTask("");
     }
   };
 
